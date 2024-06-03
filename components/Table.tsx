@@ -82,7 +82,7 @@ const Table = ({ data }: TableProps) => {
                     </button>
                   </div>
                   {dropdownIndex === index && (
-      <div className="absolute shadow-[0_2px_2px_rgba(0,0,0,0.15)] top-full  w-[85px] left-0 w-full bg-white  rounded z-10 text-accent-400 transition-max-height duration-300 overflow-hidden">
+      <div className="absolute shadow-[0_2px_2px_rgba(0,0,0,0.15)] top-9 w-[85px] left-[30px]  bg-white  rounded z-10 text-accent-400 transition-max-height duration-300 overflow-hidden">
       <ul>
                         <li className="text-left px-2 pt-2.5 pb-1 cursor-pointer text-[8px] leading-3	">
                           Processing

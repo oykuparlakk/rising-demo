@@ -36,7 +36,10 @@ const Dashboard = () => {
         <Heading />
         <Tabs />
         <Cards />
+        <div className="pb-14">
         <Chart />
+
+        </div>
         <Table data={tableData} />
       </div>
     </div>
